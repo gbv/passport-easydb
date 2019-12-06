@@ -1,0 +1,47 @@
+{
+  "name": "passport-easydb",
+  "version": "0.0.1",
+  "description": "easydb authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "easydb",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": "Stefan Peters",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gbv/passport-easydb.git"
+  },
+  "bugs": {
+    "url": "http://github.com/gbv/passport-easydb/issues"
+  },
+  "license": "MIT",
+  "main": "./lib",
+  "scripts": {
+    "lint": "eslint ./**/*.js",
+    "fix": "eslint --fix ./**/*.js",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "pre-commit": [
+    "lint-staged"
+  ],
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-gbv": "github:gbv/eslint-config-gbv",
+    "lint-staged": "^9.5.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "passport-strategy": "^1.0.0"
+  }
+}
