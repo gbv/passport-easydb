@@ -35,7 +35,7 @@
   ],
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-config-gbv": "github:gbv/eslint-config-gbv#ecaf810",
+    "eslint-config-gbv": "gbv/eslint-config-gbv#467e0a1",
     "lint-staged": "^10.0.9",
     "pre-commit": "^1.2.2"
   },
