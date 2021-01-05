@@ -40,7 +40,7 @@
     "pre-commit": "^1.2.2"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "passport-strategy": "^1.0.0"
   }
 }
