@@ -19,7 +19,7 @@ This module was roughly based on [passport-github](https://github.com/jaredhanso
 
 **Note: This is a very early version of this strategy, without tests or proper error handling. Use on your own risk!**
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
 - [Install](#install)
 - [Usage](#usage)
