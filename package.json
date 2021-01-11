@@ -21,9 +21,14 @@
   "license": "MIT",
   "main": "./lib",
   "scripts": {
+    "test": "npm run lint",
     "lint": "eslint ./**/*.js",
     "fix": "eslint --fix ./**/*.js",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "release": "npm test && git pull && npm version $SEMVER && git push --follow-tags",
+    "release:patch": "SEMVER=patch npm run release",
+    "release:minor": "SEMVER=minor npm run release",
+    "release:major": "SEMVER=major npm run release"
   },
   "lint-staged": {
     "**/*.js": [
