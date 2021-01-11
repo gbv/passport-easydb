@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/gbv/passport-easydb.svg?branch=master)](https://travis-ci.com/gbv/passport-easydb)
 [![GitHub package version](https://img.shields.io/github/package-json/v/gbv/passport-easydb.svg?label=version)](https://github.com/gbv/passport-easydb)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg)](https://github.com/RichardLitt/standard-readme)
-<!-- [![NPM package name](https://img.shields.io/badge/npm-passport--easydb-blue.svg)](https://www.npmjs.com/package/passport-easydb) -->
+[![NPM package name](https://img.shields.io/badge/npm-passport--easydb-blue.svg)](https://www.npmjs.com/package/passport-easydb)
 
 > easydb authentication strategy for Passport.
 
@@ -36,7 +36,7 @@ This module was roughly based on [passport-github](https://github.com/jaredhanso
 ## Install
 
 ```bash
-npm install gbv/passport-easydb
+npm install passport-easydb
 ```
 
 ## Usage
