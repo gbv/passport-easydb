@@ -43,11 +43,11 @@
   "devDependencies": {
     "eslint": "~9.11",
     "eslint-config-gbv": "~2.1",
-    "lint-staged": "^13.0.3",
+    "lint-staged": "^15.2.10",
     "pre-commit": "^1.2.2"
   },
   "dependencies": {
-    "axios": "^1.2.0",
+    "axios": "^1.7.7",
     "passport-strategy": "^1.0.0"
   }
 }
