@@ -24,8 +24,8 @@
   "type": "module",
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint ./**/*.js",
-    "fix": "eslint --fix ./**/*.js",
+    "lint": "eslint",
+    "fix": "eslint --fix",
     "lint-staged": "lint-staged",
     "release": "npm test && git pull && npm version $SEMVER && git push --follow-tags",
     "release:patch": "SEMVER=patch npm run release",
@@ -41,8 +41,8 @@
     "lint-staged"
   ],
   "devDependencies": {
-    "eslint": "^8.28.0",
-    "eslint-config-gbv": "^1.0.3",
+    "eslint": "~9.11",
+    "eslint-config-gbv": "~2.1",
     "lint-staged": "^13.0.3",
     "pre-commit": "^1.2.2"
   },
