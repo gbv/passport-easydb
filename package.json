@@ -19,7 +19,9 @@
     "url": "http://github.com/gbv/passport-easydb/issues"
   },
   "license": "MIT",
-  "main": "./lib",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "type": "module",
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint ./**/*.js",
